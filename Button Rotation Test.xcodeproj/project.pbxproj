@@ -14,6 +14,21 @@
 		9F8833021E72F2BD00F3B569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8833001E72F2BD00F3B569 /* LaunchScreen.storyboard */; };
 		9F88330D1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88330C1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift */; };
 		9F8833181E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833171E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift */; };
+		9F88332F1E72F30D00F3B569 /* AlertExtentsions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833251E72F30D00F3B569 /* AlertExtentsions.swift */; };
+		9F8833301E72F30D00F3B569 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833261E72F30D00F3B569 /* ArrayExtensions.swift */; };
+		9F8833311E72F30D00F3B569 /* CALayerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833271E72F30D00F3B569 /* CALayerExtensions.swift */; };
+		9F8833321E72F30D00F3B569 /* CGFLoatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833281E72F30D00F3B569 /* CGFLoatExtensions.swift */; };
+		9F8833331E72F30D00F3B569 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833291E72F30D00F3B569 /* StringExtensions.swift */; };
+		9F8833341E72F30D00F3B569 /* UIButtonExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88332A1E72F30D00F3B569 /* UIButtonExtentions.swift */; };
+		9F8833351E72F30D00F3B569 /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88332B1E72F30D00F3B569 /* UIColorExtensions.swift */; };
+		9F8833361E72F30D00F3B569 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88332C1E72F30D00F3B569 /* UIImageExtensions.swift */; };
+		9F8833371E72F30D00F3B569 /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88332D1E72F30D00F3B569 /* UIImageViewExtensions.swift */; };
+		9F8833381E72F30D00F3B569 /* ViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88332E1E72F30D00F3B569 /* ViewExtensions.swift */; };
+		9F88333B1E72F37600F3B569 /* MobileAdsStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88333A1E72F37600F3B569 /* MobileAdsStyleKit.swift */; };
+		9F88333D1E72F39600F3B569 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88333C1E72F39600F3B569 /* BackgroundView.swift */; };
+		9F88333F1E72F3C700F3B569 /* FloatingActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88333E1E72F3C700F3B569 /* FloatingActionButton.swift */; };
+		9F8833411E72F99C00F3B569 /* PlusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833401E72F99C00F3B569 /* PlusButton.swift */; };
+		9F8833431E72F9AB00F3B569 /* MagnifyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833421E72F9AB00F3B569 /* MagnifyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +62,21 @@
 		9F8833131E72F2BD00F3B569 /* Button Rotation TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button Rotation TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8833171E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Rotation_TestUITests.swift; sourceTree = "<group>"; };
 		9F8833191E72F2BD00F3B569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8833251E72F30D00F3B569 /* AlertExtentsions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertExtentsions.swift; sourceTree = "<group>"; };
+		9F8833261E72F30D00F3B569 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		9F8833271E72F30D00F3B569 /* CALayerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CALayerExtensions.swift; sourceTree = "<group>"; };
+		9F8833281E72F30D00F3B569 /* CGFLoatExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGFLoatExtensions.swift; sourceTree = "<group>"; };
+		9F8833291E72F30D00F3B569 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		9F88332A1E72F30D00F3B569 /* UIButtonExtentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtentions.swift; sourceTree = "<group>"; };
+		9F88332B1E72F30D00F3B569 /* UIColorExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensions.swift; sourceTree = "<group>"; };
+		9F88332C1E72F30D00F3B569 /* UIImageExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		9F88332D1E72F30D00F3B569 /* UIImageViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtensions.swift; sourceTree = "<group>"; };
+		9F88332E1E72F30D00F3B569 /* ViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtensions.swift; sourceTree = "<group>"; };
+		9F88333A1E72F37600F3B569 /* MobileAdsStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileAdsStyleKit.swift; sourceTree = "<group>"; };
+		9F88333C1E72F39600F3B569 /* BackgroundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		9F88333E1E72F3C700F3B569 /* FloatingActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatingActionButton.swift; sourceTree = "<group>"; };
+		9F8833401E72F99C00F3B569 /* PlusButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusButton.swift; sourceTree = "<group>"; };
+		9F8833421E72F9AB00F3B569 /* MagnifyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagnifyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +127,18 @@
 		9F8832F61E72F2BD00F3B569 /* Button Rotation Test */ = {
 			isa = PBXGroup;
 			children = (
+				9F88333A1E72F37600F3B569 /* MobileAdsStyleKit.swift */,
+				9F88333C1E72F39600F3B569 /* BackgroundView.swift */,
+				9F88333E1E72F3C700F3B569 /* FloatingActionButton.swift */,
+				9F8833391E72F32E00F3B569 /* Swift Extensions */,
 				9F8832F71E72F2BD00F3B569 /* AppDelegate.swift */,
 				9F8832F91E72F2BD00F3B569 /* ViewController.swift */,
 				9F8832FB1E72F2BD00F3B569 /* Main.storyboard */,
 				9F8832FE1E72F2BD00F3B569 /* Assets.xcassets */,
 				9F8833001E72F2BD00F3B569 /* LaunchScreen.storyboard */,
 				9F8833031E72F2BD00F3B569 /* Info.plist */,
+				9F8833401E72F99C00F3B569 /* PlusButton.swift */,
+				9F8833421E72F9AB00F3B569 /* MagnifyButton.swift */,
 			);
 			path = "Button Rotation Test";
 			sourceTree = "<group>";
@@ -123,6 +159,23 @@
 				9F8833191E72F2BD00F3B569 /* Info.plist */,
 			);
 			path = "Button Rotation TestUITests";
+			sourceTree = "<group>";
+		};
+		9F8833391E72F32E00F3B569 /* Swift Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F88332E1E72F30D00F3B569 /* ViewExtensions.swift */,
+				9F8833251E72F30D00F3B569 /* AlertExtentsions.swift */,
+				9F8833261E72F30D00F3B569 /* ArrayExtensions.swift */,
+				9F8833271E72F30D00F3B569 /* CALayerExtensions.swift */,
+				9F8833281E72F30D00F3B569 /* CGFLoatExtensions.swift */,
+				9F8833291E72F30D00F3B569 /* StringExtensions.swift */,
+				9F88332A1E72F30D00F3B569 /* UIButtonExtentions.swift */,
+				9F88332B1E72F30D00F3B569 /* UIColorExtensions.swift */,
+				9F88332C1E72F30D00F3B569 /* UIImageExtensions.swift */,
+				9F88332D1E72F30D00F3B569 /* UIImageViewExtensions.swift */,
+			);
+			name = "Swift Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +246,7 @@
 				TargetAttributes = {
 					9F8832F31E72F2BD00F3B569 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W9YJQYCY2W;
 						ProvisioningStyle = Automatic;
 					};
 					9F8833071E72F2BD00F3B569 = {
@@ -259,8 +313,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F8833431E72F9AB00F3B569 /* MagnifyButton.swift in Sources */,
+				9F8833351E72F30D00F3B569 /* UIColorExtensions.swift in Sources */,
 				9F8832FA1E72F2BD00F3B569 /* ViewController.swift in Sources */,
 				9F8832F81E72F2BD00F3B569 /* AppDelegate.swift in Sources */,
+				9F8833321E72F30D00F3B569 /* CGFLoatExtensions.swift in Sources */,
+				9F8833331E72F30D00F3B569 /* StringExtensions.swift in Sources */,
+				9F8833311E72F30D00F3B569 /* CALayerExtensions.swift in Sources */,
+				9F88333B1E72F37600F3B569 /* MobileAdsStyleKit.swift in Sources */,
+				9F88333F1E72F3C700F3B569 /* FloatingActionButton.swift in Sources */,
+				9F88332F1E72F30D00F3B569 /* AlertExtentsions.swift in Sources */,
+				9F8833361E72F30D00F3B569 /* UIImageExtensions.swift in Sources */,
+				9F8833341E72F30D00F3B569 /* UIButtonExtentions.swift in Sources */,
+				9F8833411E72F99C00F3B569 /* PlusButton.swift in Sources */,
+				9F88333D1E72F39600F3B569 /* BackgroundView.swift in Sources */,
+				9F8833371E72F30D00F3B569 /* UIImageViewExtensions.swift in Sources */,
+				9F8833381E72F30D00F3B569 /* ViewExtensions.swift in Sources */,
+				9F8833301E72F30D00F3B569 /* ArrayExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +483,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
 				INFOPLIST_FILE = "Button Rotation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-Test";
@@ -426,6 +496,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W9YJQYCY2W;
 				INFOPLIST_FILE = "Button Rotation Test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-Test";
