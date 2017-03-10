@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F8832F81E72F2BD00F3B569 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8832F71E72F2BD00F3B569 /* AppDelegate.swift */; };
+		9F8832FA1E72F2BD00F3B569 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8832F91E72F2BD00F3B569 /* ViewController.swift */; };
+		9F8832FD1E72F2BD00F3B569 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8832FB1E72F2BD00F3B569 /* Main.storyboard */; };
+		9F8832FF1E72F2BD00F3B569 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8832FE1E72F2BD00F3B569 /* Assets.xcassets */; };
+		9F8833021E72F2BD00F3B569 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8833001E72F2BD00F3B569 /* LaunchScreen.storyboard */; };
+		9F88330D1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F88330C1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift */; };
+		9F8833181E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8833171E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F8833091E72F2BD00F3B569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8832EC1E72F2BD00F3B569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8832F31E72F2BD00F3B569;
+			remoteInfo = "Button Rotation Test";
+		};
+		9F8833141E72F2BD00F3B569 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9F8832EC1E72F2BD00F3B569 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F8832F31E72F2BD00F3B569;
+			remoteInfo = "Button Rotation Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9F8832F41E72F2BD00F3B569 /* Button Rotation Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button Rotation Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8832F71E72F2BD00F3B569 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9F8832F91E72F2BD00F3B569 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F8832FC1E72F2BD00F3B569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9F8832FE1E72F2BD00F3B569 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9F8833011E72F2BD00F3B569 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9F8833031E72F2BD00F3B569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8833081E72F2BD00F3B569 /* Button Rotation TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button Rotation TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F88330C1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Rotation_TestTests.swift; sourceTree = "<group>"; };
+		9F88330E1E72F2BD00F3B569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8833131E72F2BD00F3B569 /* Button Rotation TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Button Rotation TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F8833171E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_Rotation_TestUITests.swift; sourceTree = "<group>"; };
+		9F8833191E72F2BD00F3B569 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F8832F11E72F2BD00F3B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8833051E72F2BD00F3B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8833101E72F2BD00F3B569 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F8832EB1E72F2BD00F3B569 = {
+			isa = PBXGroup;
+			children = (
+				9F8832F61E72F2BD00F3B569 /* Button Rotation Test */,
+				9F88330B1E72F2BD00F3B569 /* Button Rotation TestTests */,
+				9F8833161E72F2BD00F3B569 /* Button Rotation TestUITests */,
+				9F8832F51E72F2BD00F3B569 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F8832F51E72F2BD00F3B569 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F8832F41E72F2BD00F3B569 /* Button Rotation Test.app */,
+				9F8833081E72F2BD00F3B569 /* Button Rotation TestTests.xctest */,
+				9F8833131E72F2BD00F3B569 /* Button Rotation TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F8832F61E72F2BD00F3B569 /* Button Rotation Test */ = {
+			isa = PBXGroup;
+			children = (
+				9F8832F71E72F2BD00F3B569 /* AppDelegate.swift */,
+				9F8832F91E72F2BD00F3B569 /* ViewController.swift */,
+				9F8832FB1E72F2BD00F3B569 /* Main.storyboard */,
+				9F8832FE1E72F2BD00F3B569 /* Assets.xcassets */,
+				9F8833001E72F2BD00F3B569 /* LaunchScreen.storyboard */,
+				9F8833031E72F2BD00F3B569 /* Info.plist */,
+			);
+			path = "Button Rotation Test";
+			sourceTree = "<group>";
+		};
+		9F88330B1E72F2BD00F3B569 /* Button Rotation TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				9F88330C1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift */,
+				9F88330E1E72F2BD00F3B569 /* Info.plist */,
+			);
+			path = "Button Rotation TestTests";
+			sourceTree = "<group>";
+		};
+		9F8833161E72F2BD00F3B569 /* Button Rotation TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9F8833171E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift */,
+				9F8833191E72F2BD00F3B569 /* Info.plist */,
+			);
+			path = "Button Rotation TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F8832F31E72F2BD00F3B569 /* Button Rotation Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F88331C1E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation Test" */;
+			buildPhases = (
+				9F8832F01E72F2BD00F3B569 /* Sources */,
+				9F8832F11E72F2BD00F3B569 /* Frameworks */,
+				9F8832F21E72F2BD00F3B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Button Rotation Test";
+			productName = "Button Rotation Test";
+			productReference = 9F8832F41E72F2BD00F3B569 /* Button Rotation Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9F8833071E72F2BD00F3B569 /* Button Rotation TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F88331F1E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation TestTests" */;
+			buildPhases = (
+				9F8833041E72F2BD00F3B569 /* Sources */,
+				9F8833051E72F2BD00F3B569 /* Frameworks */,
+				9F8833061E72F2BD00F3B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F88330A1E72F2BD00F3B569 /* PBXTargetDependency */,
+			);
+			name = "Button Rotation TestTests";
+			productName = "Button Rotation TestTests";
+			productReference = 9F8833081E72F2BD00F3B569 /* Button Rotation TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9F8833121E72F2BD00F3B569 /* Button Rotation TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F8833221E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation TestUITests" */;
+			buildPhases = (
+				9F88330F1E72F2BD00F3B569 /* Sources */,
+				9F8833101E72F2BD00F3B569 /* Frameworks */,
+				9F8833111E72F2BD00F3B569 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F8833151E72F2BD00F3B569 /* PBXTargetDependency */,
+			);
+			name = "Button Rotation TestUITests";
+			productName = "Button Rotation TestUITests";
+			productReference = 9F8833131E72F2BD00F3B569 /* Button Rotation TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F8832EC1E72F2BD00F3B569 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yung Dai";
+				TargetAttributes = {
+					9F8832F31E72F2BD00F3B569 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					9F8833071E72F2BD00F3B569 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8832F31E72F2BD00F3B569;
+					};
+					9F8833121E72F2BD00F3B569 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9F8832F31E72F2BD00F3B569;
+					};
+				};
+			};
+			buildConfigurationList = 9F8832EF1E72F2BD00F3B569 /* Build configuration list for PBXProject "Button Rotation Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9F8832EB1E72F2BD00F3B569;
+			productRefGroup = 9F8832F51E72F2BD00F3B569 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F8832F31E72F2BD00F3B569 /* Button Rotation Test */,
+				9F8833071E72F2BD00F3B569 /* Button Rotation TestTests */,
+				9F8833121E72F2BD00F3B569 /* Button Rotation TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F8832F21E72F2BD00F3B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8833021E72F2BD00F3B569 /* LaunchScreen.storyboard in Resources */,
+				9F8832FF1E72F2BD00F3B569 /* Assets.xcassets in Resources */,
+				9F8832FD1E72F2BD00F3B569 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8833061E72F2BD00F3B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8833111E72F2BD00F3B569 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F8832F01E72F2BD00F3B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8832FA1E72F2BD00F3B569 /* ViewController.swift in Sources */,
+				9F8832F81E72F2BD00F3B569 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F8833041E72F2BD00F3B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F88330D1E72F2BD00F3B569 /* Button_Rotation_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F88330F1E72F2BD00F3B569 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F8833181E72F2BD00F3B569 /* Button_Rotation_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F88330A1E72F2BD00F3B569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8832F31E72F2BD00F3B569 /* Button Rotation Test */;
+			targetProxy = 9F8833091E72F2BD00F3B569 /* PBXContainerItemProxy */;
+		};
+		9F8833151E72F2BD00F3B569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9F8832F31E72F2BD00F3B569 /* Button Rotation Test */;
+			targetProxy = 9F8833141E72F2BD00F3B569 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9F8832FB1E72F2BD00F3B569 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8832FC1E72F2BD00F3B569 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9F8833001E72F2BD00F3B569 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F8833011E72F2BD00F3B569 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F88331A1E72F2BD00F3B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9F88331B1E72F2BD00F3B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F88331D1E72F2BD00F3B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Button Rotation Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9F88331E1E72F2BD00F3B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Button Rotation Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9F8833201E72F2BD00F3B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button Rotation TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button Rotation Test.app/Button Rotation Test";
+			};
+			name = Debug;
+		};
+		9F8833211E72F2BD00F3B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Button Rotation TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Button Rotation Test.app/Button Rotation Test";
+			};
+			name = Release;
+		};
+		9F8833231E72F2BD00F3B569 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Button Rotation TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Button Rotation Test";
+			};
+			name = Debug;
+		};
+		9F8833241E72F2BD00F3B569 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Button Rotation TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yungdai.Button-Rotation-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Button Rotation Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F8832EF1E72F2BD00F3B569 /* Build configuration list for PBXProject "Button Rotation Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F88331A1E72F2BD00F3B569 /* Debug */,
+				9F88331B1E72F2BD00F3B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F88331C1E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F88331D1E72F2BD00F3B569 /* Debug */,
+				9F88331E1E72F2BD00F3B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F88331F1E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8833201E72F2BD00F3B569 /* Debug */,
+				9F8833211E72F2BD00F3B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9F8833221E72F2BD00F3B569 /* Build configuration list for PBXNativeTarget "Button Rotation TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F8833231E72F2BD00F3B569 /* Debug */,
+				9F8833241E72F2BD00F3B569 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F8832EC1E72F2BD00F3B569 /* Project object */;
+}
