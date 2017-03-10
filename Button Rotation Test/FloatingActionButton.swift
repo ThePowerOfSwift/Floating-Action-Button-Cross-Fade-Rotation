@@ -30,25 +30,30 @@ import UIKit
     
     func setup() {
         
-        // make sure that the subviews are the same size as the button
-        topView.bounds = bounds
-        selectedView.bounds = bounds
-        
-        // make sure that your programatic button has a clear background
-        topView.backgroundColor = .clear
-        selectedView.backgroundColor = .clear
-        
-        
-        // make sure that the CGPoint center of your subViews match the CGPoint of your current bounds midPoints
-        // NOTE: You cannot say subView.center = self.center, this doesn't work without a conversion
-        topView.center = CGPoint(x: self.bounds.midX, y: self.bounds.midY)
-        selectedView.center = CGPoint(x: self.bounds.midX, y: self.bounds.midY)
+        // setup the subviews so they center properly and are shaped properly
+        setUpSubView(view: topView, with: .clear)
+        setUpSubView(view: selectedView, with: .red)
         
         // add the subviews into the order that they should appear on the button
         self.addSubview(selectedView)
         self.addSubview(topView)
         
         selectedView.alpha = 0
+    }
+    
+    func setUpSubView(view: UIView, with colour: UIColor) {
+        
+        view.bounds = bounds
+        
+        // make sure that the subview is also round
+        view.fullRoundCorners(CFloat(bounds.width / 2), borderColour:
+            .clear, borderWidth: 0)
+        
+        view.backgroundColor = colour
+        
+        // make sure that the CGPoint center of your subViews match the CGPoint of your current bounds midPoints
+        // NOTE: You cannot say subView.center = self.center, this doesn't work without a conversion
+        view.center = CGPoint(x: self.bounds.midX, y: self.bounds.midY)
     }
     
     override func draw(_ rect: CGRect) {
@@ -62,23 +67,33 @@ import UIKit
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !tapped {
             
-            UIView.animate(withDuration: 0.3, animations: {
+            UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseInOut, animations: {
+                
                 self.rotateViewInsideAnimationBlock(rotations: 0.75, direction: .forward)
-            
+
+                
                 self.topView.alpha = 0
                 self.selectedView.alpha = 1
-                self.backgroundColor = UIColor.red
-            })
+                
+                 // Uncomment for scaling effect of the X
+//                self.selectedView.transform = .identity
+                
+
+            }, completion: nil)
+
         
         } else {
             
-            UIView.animate(withDuration: 0.3, animations: {
+            
+            UIView.animate(withDuration: 0.3, delay: 0.0, options: .curveEaseInOut, animations: {
                 self.transform = .identity
-                
                 self.selectedView.alpha = 0
                 self.topView.alpha = 1
-                self.backgroundColor = UIColor.blue
-            })
+                
+                // Uncomment for scaling effect of the X
+//                self.selectedView.transform = CGAffineTransform(scaleX: 0.001, y: 0.001)
+
+            }, completion: nil)
         }
         
         tapped = !tapped
