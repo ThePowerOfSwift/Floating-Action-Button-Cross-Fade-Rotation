@@ -67,6 +67,7 @@ import UIKit
             
                 self.topView.alpha = 0
                 self.selectedView.alpha = 1
+                self.backgroundColor = UIColor.red
             })
         
         } else {
@@ -76,6 +77,7 @@ import UIKit
                 
                 self.selectedView.alpha = 0
                 self.topView.alpha = 1
+                self.backgroundColor = UIColor.blue
             })
         }
         
